@@ -1,0 +1,33 @@
+.slider-container {
+    position: relative;
+    width: 600px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .slide {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .left-arrow, .right-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    z-index: 1000;
+  }
+  
+  .left-arrow {
+    left: 10px;
+  }
+  
+  .right-arrow {
+    right: 10px;
+  }

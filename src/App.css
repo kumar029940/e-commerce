@@ -1,0 +1,108 @@
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme.css';
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+.Nav-bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #b8402b;
+  color: white;
+  padding: 10px 20px;
+}
+
+.Nav-bar .img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.Nav-bar div {
+  display: flex;
+  align-items: center;
+  font-size: 1.2em;
+}
+
+.Product {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 15px;
+  width: 220px; 
+  height: 350px; 
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Product img {
+  width: 150px; 
+  height: 150px; 
+  object-fit: contain; 
+  margin: 0 auto 10px; 
+}
+
+.Product h2 {
+  font-size: 1.1em;
+  margin: 10px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.Product p {
+  font-size: 0.9em;
+  color: #555;
+  margin: 5px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.Product button {
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 0.9em;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.Product button:hover {
+  background-color: #0056b3;
+}
+
+.Home {
+  color: rgb(237, 237, 243);
+}
+
+.slider-container {
+  margin: 20px auto;
+  width: 20%;
+}
+
+
+.slider-image {
+  max-width: 100%;
+  max-height: 300px;
+}
